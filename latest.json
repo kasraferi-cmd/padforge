@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "notes": "First public release. Use PlayStation and generic controllers on Windows: wired or wireless, several at once, per-game profiles, gyro aiming, and a keyboard mode for games with no controller support.",
+  "critical": false,
+  "url": "https://github.com/kasraferi-cmd/padforge/releases",
+  "installer": {
+    "url": "https://github.com/kasraferi-cmd/padforge/releases/download/v1.0.0/PadForge-Setup-1.0.0.exe",
+    "sha256": "A44990E6109984094B532B315D1E0370C78180DCAE69E7FD5149458ED3B82E97"
+  },
+  "portable": {
+    "url": "https://github.com/kasraferi-cmd/padforge/releases/download/v1.0.0/PadForge-Portable-1.0.0.zip",
+    "sha256": "67CBB86632E54BBE3EEC70FCF375C2075D1F593DD098D5D4536DC896253DBBB5"
+  }
+}
