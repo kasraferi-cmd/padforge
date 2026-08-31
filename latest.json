@@ -1,0 +1,15 @@
+{
+    "version":  "1.2.0",
+    "notes":  "New in this version:\n\n-  Every number beside a slider can be clicked and typed into, so you can set an exact value instead of hunting for it with the mouse.\n-  Trigger snap: the analogue triggers can act as plain on/off buttons that fire the moment they pass a point you choose.\n-  Motion aiming can now be inverted vertically, not just horizontally.\n-  The close button can be set to quit properly instead of hiding to the tray.\n\nFixed:\n\n-  A typed sensitivity value was applied but never saved, so it was lost when PadForge closed.\n-  The installer now carries .NET inside it and no longer downloads a runtime during setup.\n-  Setup no longer opens a text editor when it finishes.\n-  The Persian translation is complete; text that stayed English has been translated.",
+    "notesFa":  "چه چیزی اضافه شد:\n\n-  روی عددی که کنار هر اسلایدر است می‌توانی کلیک کنی و مقدارش را خودت بنویسی. دیگر لازم نیست با ماوس دنبال عدد دقیق بگردی.\n-  تریگرها را می‌توانی دکمه‌ای کنی: از هر نقطه‌ای که خودت تعیین کنی شلیک می‌کنند. به کار بازی‌های تیراندازی می‌آید، به کار ماشین‌سواری نه.\n-  نشانه‌گیری با حرکت دسته، محور عمودی را هم معکوس می‌کند. پیش از این فقط افقی بود.\n-  دکمه‌ی ضربدر را می‌توانی طوری تنظیم کنی که برنامه را ببندد، نه اینکه کنار ساعت پنهانش کند.\n\nچه چیزی درست شد:\n\n-  حساسیتی که دستی وارد می‌کردی اعمال می‌شد ولی ذخیره نمی‌شد، و با بستن برنامه از بین می‌رفت.\n-  فایل نصب دیگر وسط کار چیزی دانلود نمی‌کند، چون .NET داخل خودش است.\n-  آخر نصب دیگر برنامه‌ی ناخواسته‌ای باز نمی‌شود.\n-  هر جا که هنوز انگلیسی مانده بود فارسی شد.",
+    "critical":  false,
+    "url":  "https://github.com/kasraferi-cmd/padforge/releases",
+    "installer":  {
+                      "url":  "https://github.com/kasraferi-cmd/padforge/releases/download/v1.2.0/PadForge-Setup-1.2.0.exe",
+                      "sha256":  "459412C9F8D091A146D35381C69FB317CFCB60C017BA8392858A7C6F9D8D43F7"
+                  },
+    "portable":  {
+                     "url":  "https://github.com/kasraferi-cmd/padforge/releases/download/v1.2.0/PadForge-Portable-1.2.0.zip",
+                     "sha256":  "9C6EB0DE12969B5F1F4190F2359B4192D4701A6B8FED2649243698E2814FE426"
+                 }
+}
