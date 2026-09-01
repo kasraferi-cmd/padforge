@@ -1,0 +1,15 @@
+{
+  "version": "1.4.1",
+  "notes": "- The controller's switch comes back on. It used to mean \"bridge this pad\", which created a virtual controller as a side effect, so people switched it off to stop games seeing the pad twice. Those are separate settings now, and a saved \"off\" from the old meaning is corrected when the app starts.",
+  "notesFa": "- کلید خود دسته دوباره روشن می‌شود. قبلاً معنی‌اش «این دسته را پل بزن» بود که به‌عنوان عارضه یک دسته‌ی مجازی هم می‌ساخت، برای همین مردم خاموشش می‌کردند تا بازی دسته را دو تا نبیند. حالا این‌ها دو تنظیم جدا هستند، و «خاموش»ی که با معنی قدیمی ذخیره شده بود موقع باز شدن برنامه اصلاح می‌شود.",
+  "critical": false,
+  "url": "https://github.com/kasraferi-cmd/padforge/releases",
+  "installer": {
+    "url": "https://github.com/kasraferi-cmd/padforge/releases/download/v1.4.1/PadForge-Setup-1.4.1.exe",
+    "sha256": "BF8946B2D92B69619808C68A790F49DA1520D638B601366C26584A5AD5191055"
+  },
+  "portable": {
+    "url": "https://github.com/kasraferi-cmd/padforge/releases/download/v1.4.1/PadForge-Portable-1.4.1.zip",
+    "sha256": "91D23FDE0400D4534B4A70E28CC88509BC5EBBBBF3C3F2C5B8635FAEC515E5A7"
+  }
+}
