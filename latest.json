@@ -1,0 +1,15 @@
+{
+  "version": "1.3.1",
+  "notes": "The installer now carries everything it needs:\n\n-  ViGEmBus and HidHide are inside the setup file and installed from it. Setup used to fetch ViGEmBus through winget, which fails without a working connection, and HidHide was not handled at all even though a game reads the controller twice without it.\n-  .NET was already bundled, so setup now downloads nothing whatsoever.\n-  The install folder is one executable instead of the 250-odd .NET files it used to scatter through Program Files, and setup clears the old layout out on the way past.",
+  "notesFa": "نصاب حالا هرچه لازم دارد را همراه خودش دارد:\n\n-  ViGEmBus و HidHide داخل خود فایل نصب هستند و از همان‌جا نصب می‌شوند. پیش از این ViGEmBus را با winget دانلود می‌کرد که بدون اینترنت شکست می‌خورد، و HidHide اصلاً در نظر گرفته نشده بود، در حالی که بدون آن بازی دسته را دو بار می‌خواند.\n-  دات‌نت از قبل داخلش بود، پس نصب دیگر هیچ چیزی دانلود نمی‌کند.\n-  پوشه‌ی نصب به‌جای بیش از ۲۵۰ فایل دات‌نت، فقط یک فایل اجرایی است، و نصاب چیدمان قدیمی را هم سر راه پاک می‌کند.",
+  "critical": false,
+  "url": "https://github.com/kasraferi-cmd/padforge/releases",
+  "installer": {
+    "url": "https://github.com/kasraferi-cmd/padforge/releases/download/v1.3.1/PadForge-Setup-1.3.1.exe",
+    "sha256": "97836F6E789698606CC08BC3106BBBF8566A96F5C8035B9AF39C8ECAC4064EBA"
+  },
+  "portable": {
+    "url": "https://github.com/kasraferi-cmd/padforge/releases/download/v1.3.1/PadForge-Portable-1.3.1.zip",
+    "sha256": "2CC6121E466A158BF374C35F289D016C5489C335291378701F2846A277339FBC"
+  }
+}
