@@ -1,0 +1,15 @@
+{
+  "version": "1.4.0",
+  "notes": "- The controller's own switch and the virtual pad are two separate things now. Switching a controller on no longer creates a device for games; that is the switch in the \"controllers games see\" list, and it stays off until you ask.\n- Maximise button in the title bar.\n- When an update cannot install because Windows was not granted administrator permission, it says so instead of \"could not be installed automatically\".",
+  "notesFa": "- کلید خود دسته و کلید دسته‌ی مجازی حالا دو چیز جدا هستند. روشن کردن دسته دیگر برای بازی‌ها دستگاه نمی‌سازد؛ آن کار با کلید فهرست «دسته‌هایی که بازی‌ها می‌بینند» انجام می‌شود و تا نخواهی خاموش می‌ماند.\n- دکمه‌ی بزرگ کردن پنجره اضافه شد.\n- وقتی آپدیت نصب نمی‌شود چون ویندوز اجازه‌ی مدیر نگرفته، همین را می‌گوید به‌جای «نصب خودکار ممکن نشد».",
+  "critical": false,
+  "url": "https://github.com/kasraferi-cmd/padforge/releases",
+  "installer": {
+    "url": "https://github.com/kasraferi-cmd/padforge/releases/download/v1.4.0/PadForge-Setup-1.4.0.exe",
+    "sha256": "214E477AB1CA1F380C1FA21C349692FC510F15BE2F691855904984C51242078F"
+  },
+  "portable": {
+    "url": "https://github.com/kasraferi-cmd/padforge/releases/download/v1.4.0/PadForge-Portable-1.4.0.zip",
+    "sha256": "F3D7705F70474A5AA214C172B4C46DF442836BF183D5EA963AB38FB5882EB8F2"
+  }
+}
