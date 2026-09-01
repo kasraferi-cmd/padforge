@@ -1,0 +1,15 @@
+{
+  "version": "1.2.1",
+  "notes": "Fixed:\n\n-  Steam Input could quietly take over the virtual pad and hand the game a second copy of it, so every button press counted twice. PadForge now detects this and says which setting is causing it.\n-  The \"Hide originals\" switch stayed on when hiding had actually failed, so it looked like it was working when it was not. It now turns itself back off and explains why.",
+  "notesFa": "چه چیزی درست شد:\n\n-  استیم می‌توانست بی‌سروصدا دسته‌ی مجازی را تحویل بگیرد و یک نسخه‌ی دوم از آن به بازی بدهد، طوری که هر فشار دکمه دو بار حساب می‌شد. حالا پدفورج این را تشخیص می‌دهد و می‌گوید کدام تنظیم باعثش شده.\n-  سوییچ «مخفی کردن دسته اصلی» وقتی مخفی‌سازی شکست می‌خورد روشن می‌ماند و به نظر می‌رسید کار می‌کند. حالا خودش خاموش می‌شود و دلیلش را می‌گوید.",
+  "critical": false,
+  "url": "https://github.com/kasraferi-cmd/padforge/releases",
+  "installer": {
+    "url": "https://github.com/kasraferi-cmd/padforge/releases/download/v1.2.1/PadForge-Setup-1.2.1.exe",
+    "sha256": "7E415666C19CFBB59CA63628A20C1429389AB6D9F0B5DA629C7112EA53D8DE57"
+  },
+  "portable": {
+    "url": "https://github.com/kasraferi-cmd/padforge/releases/download/v1.2.1/PadForge-Portable-1.2.1.zip",
+    "sha256": "E5CBD78D87B69860FD1D069E921EAF4FA4CA6980B94F33883D0299D601E94D0C"
+  }
+}
