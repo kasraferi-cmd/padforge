@@ -1,0 +1,15 @@
+{
+  "version": "1.3.2",
+  "notes": "Closing the window closes the app:\n\n-  PadForge used to keep running in the notification area after its close button was pressed. It now exits, and hands your controller back to Windows on the way out. The switch in the title bar turns the old behaviour back on if you would rather it were already running when a game starts.\n\nAlso:\n\n-  The status line claimed \"games now see only the virtual pads\" while hiding nothing at all. It now says what is actually true when no controller is switched on.",
+  "notesFa": "بستن پنجره یعنی بستن برنامه:\n\n-  پدفورج بعد از زدن دکمه‌ی بستن، کنار ساعت به کارش ادامه می‌داد. حالا واقعاً بسته می‌شود و سر راه دسته را هم به ویندوز برمی‌گرداند. کلیدی که بالای پنجره هست رفتار قبلی را برمی‌گرداند، اگر ترجیح می‌دهی موقع شروع بازی از قبل در حال اجرا باشد.\n\nضمناً:\n\n-  نوار وضعیت می‌نوشت «بازی‌ها فقط دسته‌ی مجازی را می‌بینند» در حالی که اصلاً چیزی مخفی نشده بود. حالا وقتی هیچ دسته‌ای روشن نیست، همان چیزی را می‌گوید که واقعاً هست.",
+  "critical": false,
+  "url": "https://github.com/kasraferi-cmd/padforge/releases",
+  "installer": {
+    "url": "https://github.com/kasraferi-cmd/padforge/releases/download/v1.3.2/PadForge-Setup-1.3.2.exe",
+    "sha256": "D534958D86488C704B47FFF9FE4A6981C27D87C28A1E92B24A6DFE66769FA2DD"
+  },
+  "portable": {
+    "url": "https://github.com/kasraferi-cmd/padforge/releases/download/v1.3.2/PadForge-Portable-1.3.2.zip",
+    "sha256": "1EC53E0918953135A4DE3169433BAAA15285C8B341C67D0490BB5F0EC25DFD47"
+  }
+}
