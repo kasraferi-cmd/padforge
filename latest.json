@@ -1,0 +1,15 @@
+{
+  "version": "1.3.0",
+  "notes": "Controllers no longer bridge themselves:\n\n-  A controller now arrives switched off. PadForge used to put a virtual pad in front of every controller it found, which is what made a game read the same button press twice. Switch on the one you want to play with.\n-  A list of the devices PadForge presents to Windows, with a switch for each. Games read one of these rather than your controller directly, and until now they were invisible from inside the app.\n-  The list of devices shown to Windows folds away. It starts shut, opens from its own header, and stays how you left it.\n\nFixed:\n\n-  Switching a controller off could leave it working nowhere at all: the virtual pad went away but the real controller stayed hidden from Windows. Only bridged controllers are hidden now.\n-  Applying \"Hide originals\" un-hid everything first and hid it again, which broke hiding that was already working and left it broken until the next restart. Only the difference is written now.\n-  Switching a controller on or off did not update what was hidden.\n-  PadForge now notices when Steam Input is set to adopt the virtual pad, which causes the same doubling, and says which setting is responsible.",
+  "notesFa": "دیگر خودبه‌خود دسته‌ی مجازی ساخته نمی‌شود:\n\n-  هر دسته‌ای که وصل شود خاموش می‌آید. پیش از این پدفورج جلوی هر دسته‌ای که پیدا می‌کرد یک دسته‌ی مجازی می‌گذاشت، و همین باعث می‌شد بازی هر فشار دکمه را دو بار بخواند. حالا خودت آن یکی را که می‌خواهی باهاش بازی کنی روشن می‌کنی.\n-  فهرستی از دستگاه‌هایی که پدفورج به ویندوز معرفی می‌کند، با یک کلید برای هر کدام. بازی‌ها یکی از این‌ها را می‌خوانند نه مستقیم دسته‌ی خودت را، و تا حالا از داخل برنامه دیده نمی‌شدند.\n-  فهرست دستگاه‌هایی که به ویندوز معرفی می‌شوند جمع می‌شود. بسته شروع می‌شود، از روی خود عنوانش باز می‌شود، و همان‌طور می‌ماند که گذاشتی.\n\nدرست شد:\n\n-  خاموش کردن یک دسته می‌توانست آن را کاملاً از کار بیندازد: دسته‌ی مجازی برداشته می‌شد ولی دسته‌ی واقعی همچنان از ویندوز مخفی می‌ماند. حالا فقط دسته‌هایی مخفی می‌شوند که روشن‌اند.\n-  «مخفی کردن دسته اصلی» اول همه را از مخفی درمی‌آورد و دوباره مخفی می‌کرد، و همین مخفی‌سازیِ در حال کار را می‌شکست و تا ری‌استارت بعدی خراب می‌ماند. حالا فقط تفاوت نوشته می‌شود.\n-  روشن و خاموش کردن دسته، فهرست مخفی‌ها را به‌روز نمی‌کرد.\n-  اگر استیم طوری تنظیم شده باشد که دسته‌ی مجازی را تحویل بگیرد — که همان دوتایی شدن را می‌سازد — پدفورج تشخیص می‌دهد و می‌گوید کدام تنظیم مقصر است.",
+  "critical": false,
+  "url": "https://github.com/kasraferi-cmd/padforge/releases",
+  "installer": {
+    "url": "https://github.com/kasraferi-cmd/padforge/releases/download/v1.3.0/PadForge-Setup-1.3.0.exe",
+    "sha256": "4C2168E7853D6BA3AAE930951A3C6B87F18216B860A05E9121968CB2AB259353"
+  },
+  "portable": {
+    "url": "https://github.com/kasraferi-cmd/padforge/releases/download/v1.3.0/PadForge-Portable-1.3.0.zip",
+    "sha256": "C764409043C00285B3FDB220D958175719E70046FF44386067E7FD5872CCDE72"
+  }
+}
